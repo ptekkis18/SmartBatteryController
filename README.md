@@ -19,3 +19,25 @@ The program checks the battery level every 5 seconds to update the GUI.
 The program checks if the plug needs to be turned on/off every 30 seconds.
 
 Charging settings can be adjusted for different target objectives.
+
+## Main Requirements
+* Tapo P100 Smart Plug
+* Laptop Charger
+* Network Access
+* PyP100: https://github.com/almottier/TapoP100
+* psutil Import
+
+## Installation
+Adjust the code with yours and device's credentials
+
+## Usage
+Run script from Terminal:
+```bash
+python3 ./SmartBatteryController.py
+```
+Make it into a Windows Executable:
+```bash
+pyinstaller --clean --noupx --onefile --windowed --icon=battery.ico SmartBatteryController.py
+```
+The executable is stored inside /dist folder
+
