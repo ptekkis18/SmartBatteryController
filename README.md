@@ -9,7 +9,7 @@ Green: above 51%
 
 The script enables automatic device charging with the use of TP-Link TapoP100 Smart Plug.
 P100 firmware is the updated 1.2.1 version.
-For this to work install and use the updated module from https://github.com/almottier/TapoP100
+For this to work install and use the updated library from https://github.com/almottier/TapoP100
 
 When battery level reaches 20%, the plug is activated enabling charghing.
 When the battery level reaches 80%, the plug is turned off.
@@ -18,17 +18,23 @@ When the battery level reaches 80%, the plug is turned off.
 The program checks the battery level every 5 seconds to update the GUI.
 The program checks if the plug needs to be turned on/off every 30 seconds.
 
-Charging settings can be adjusted for different target objectives.
+Charging settings can be adjusted for different charge cycles objectives.
 
 ## Main Requirements
 * Tapo P100 Smart Plug
 * Laptop Charger
 * Network Access
-* PyP100: https://github.com/almottier/TapoP100
+* PyP100 Library
 * psutil Import
 
 ## Installation
+Install PyP100 library by Almottier using:
+```bash
+pip install git+https://github.com/almottier/TapoP100.git@main
+```
 Adjust the code with yours and device's credentials
+Connect to the same Network
+Execute The Program
 
 ## Usage
 Run script from Terminal:
