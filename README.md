@@ -32,7 +32,7 @@ Charging settings can be adjusted for different charge cycles objectives.
 * Laptop Charger
 * Network Access
 * PyP100 Library
-* psutil Import
+* psutil Library
 
 ## Installation
 * Install PyP100 library by Almottier using:
