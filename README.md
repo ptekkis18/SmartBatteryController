@@ -3,11 +3,11 @@
 
 <img align="left" src="https://github.com/user-attachments/assets/ea4e35a4-cf34-438e-9211-b5f07d635285">
 
-&nbsp;This python script uses the psutil library to read the battery percentage of the laptop.
+This python script uses the psutil library to read the battery percentage of the laptop.
 
-&nbsp;A donut battery indicator is used to display the current battery level on a small window.
+A donut battery indicator is used to display the current battery level on a small window.
 
-&nbsp;The color of the donut changes based on the battery level.
+The color of the donut changes based on the battery level.
 <br clear="left"/>
 <br>
 Red: below 25% | 
