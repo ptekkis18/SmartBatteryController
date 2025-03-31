@@ -1,9 +1,15 @@
 # SmartBatteryController
 
-This python script uses the psutil library to read the battery percentage of the laptop.
-A donut battery indicator is used to display the current battery level on a small window.
-The color of the donut changes based on the battery level.
 
+<img align="left" src="https://github.com/user-attachments/assets/ea4e35a4-cf34-438e-9211-b5f07d635285">
+
+&nbsp; This python script uses the psutil library to read the battery percentage of the laptop.
+
+&nbsp; A donut battery indicator is used to display the current battery level on a small window.
+
+&nbsp; The color of the donut changes based on the battery level.
+<br clear="left"/>
+<br>
 Red: below 25% | 
 Orange: below 50% | 
 Green: above 51%
